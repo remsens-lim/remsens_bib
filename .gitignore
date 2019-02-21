@@ -4,3 +4,4 @@
 # But not the bib file
 !.gitignore
 !remsens.bib
+!README.md
