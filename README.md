@@ -15,3 +15,9 @@ bibtex file for RemSens pdf library
      The commit message should include something like “added paper(s) XY”
   6. Push the updates to the remote branch, so everyone can pull the latest version.
 
+# How to edit:
+  1. Please use JabRef or a plain text editor to edit the file. Other editors such as KBibTeX mess the file up by adding too many {} and "" in weird places.
+  2. Always add the abstract, and some key words would be good as well. Example key words would be radar, lidar, retrieval, dust, microphysics, CDNC, Arctic,...
+  3. The key is FirstAuthorYYYY, and if several papers fulfill this requirement, please use a,b,c
+  4. Use journal abbreviations. JabRef has a button to "toggle abbreviation" next to the journal name field.
+  5. For JabRef to recognize more journals, set it up to use "additional_journal_abbreviations.txt" as external file in Options --> manage journal abbreviations 
