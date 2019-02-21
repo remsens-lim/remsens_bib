@@ -2,7 +2,7 @@
 bibtex file for RemSens pdf library
 
 Initialize your local repo:
-  1. Open a console and cd to you desired folder where you want to store the files on your local machine (I have it under ../Documents/)
+  1. Open a console and cd to you desired folder where you want to store the files on your local machine (e.g.: under ../Documents/)
   2. Clone the repo via: git clone https://github.com/KarlJohnsonnn/remsens_bib.git
      OR download the zip file: https://github.com/KarlJohnsonnn/remsens_bib/archive/master.zip
  
