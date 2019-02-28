@@ -13,7 +13,7 @@ bibtex file for RemSens pdf library
   4. Add changes to the stash, again with console: git add remsens.bib
   5. Commit the changes: git commit -m ‘commit message’
      The commit message should include something like “added paper(s) XY”
-  6. Safety pull, if someone pushed updates while you where editing.
+  6. Safety pull, if someone pushed updates while you were editing.
   7. Push the updates to the remote branch, so everyone can pull the latest version: git push
 
 # How to edit:
