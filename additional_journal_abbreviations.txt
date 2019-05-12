@@ -1,1 +1,6 @@
 Journal of Geophysical Research: Atmospheres = J. Geophys. Res. Atmos.
+Journal of Geophysical Research: Oceans = J. Geophys. Res. Oceans
+Tellus A: Dynamic Meteorology and Oceanography = Tellus A
+Tellus B: Chemical and Physical Meteorology = Tellus B
+Journal of Applied Meteorology and Climatology = J. Appl. Meteorol. Clim.
+Journal of Climate and Applied Meteorology = J. Climate Appl. Meteor.
