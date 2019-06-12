@@ -994,7 +994,7 @@
   year      = {2019},
   pages     = {1--31},
   month     = {jan},
-  abstract  = {Cloud radars are unique instruments for observing cloud processes, but uncertainties in radar calibration have frequently limited data quality. Thus far, no single, robust method exists for assessing calibration of past cloud radar data sets. Here, we investigate whether observations of microphysical processes of liquid clouds such as the transition of cloud droplets to drizzle drops can be used to calibrate cloud radars. Speci?cally, we study the relationships between the radar re?ectivity factor and three variables not affected by absolute radar calibration: the skewness of the radar Doppler spectrum (?), the radar mean Doppler velocity (W), and the liquid water path (LWP). We identify reference points of these relationships and evaluate their potential for radar calibration. For ? and W, we use box model simulations to determine typical radar re?ectivity values for these reference points. We apply the new methods to observations at the Atmospheric Radiation Measurement (ARM) sites North Slope of Alaska (NSA) and Oliktok Point (OLI) in 2016 using two 35 GHz Ka-band ARM Zenith Radars (KAZR). For periods with a suf?cient number of liquid cloud observations, we ?nd that the methods are robust enough for cloud radar calibration, with the LWP-based method performing best. We estimate that in 2016, the radar re?ectivity at NSA was about 1�1 dB too low, but stable. For OLI, we identify serious problems with maintaining an accurate calibration including a sudden decrease of 5 to 7 dB in June 2016.},
+  abstract  = {Cloud radars are unique instruments for observing cloud processes, but uncertainties in radar calibration have frequently limited data quality. Thus far, no single, robust method exists for assessing calibration of past cloud radar data sets. Here, we investigate whether observations of microphysical processes of liquid clouds such as the transition of cloud droplets to drizzle drops can be used to calibrate cloud radars. Specifically, we study the relationships between the radar reflectivity factor and three variables not affected by absolute radar calibration: the skewness of the radar Doppler spectrum (?), the radar mean Doppler velocity (W), and the liquid water path (LWP). We identify reference points of these relationships and evaluate their potential for radar calibration. For Ka and W, we use box model simulations to determine typical radar re?ectivity values for these reference points. We apply the new methods to observations at the Atmospheric Radiation Measurement (ARM) sites North Slope of Alaska (NSA) and Oliktok Point (OLI) in 2016 using two 35 GHz Ka-band ARM Zenith Radars (KAZR). For periods with a suf?cient number of liquid cloud observations, we ?nd that the methods are robust enough for cloud radar calibration, with the LWP-based method performing best. We estimate that in 2016, the radar re?ectivity at NSA was about 1�1 dB too low, but stable. For OLI, we identify serious problems with maintaining an accurate calibration including a sudden decrease of 5 to 7 dB in June 2016.},
   doi       = {10.5194/amt-2019-20},
   keywords  = {cloud radar, liquid clouds, drizzle drops, reflectivity factor, skewness, LWP, cloud radar calibration},
   publisher = {Copernicus {GmbH}},
@@ -2506,6 +2506,54 @@ Climate-relevant aerosol processes are better understood, and climate-relevant a
   number  = {18},
   month   = sep,
   doi     = {10.1029/2012gl052831},
+}
+
+@Article{Neto2018,
+  author  = {Dias Neto, J. and Kneifel, S. and Ori, D. and Tr\"omel, S. and Handwerker, J. and Bohn, B. and Hermes, N. and M\"uhlbauer, K. and Lenefer, M. and Simmer, C.},
+  title   = {The TRIple-frequency and Polarimetric radar Experiment for improving process observation of winter precipitation},
+  journal = {Earth Syst. Sci. Data Discuss.},
+  year    = {2018},
+  volume  = {2018},
+  pages   = {1--26},
+  doi     = {10.5194/essd-2018-142},
+  url     = {https://www.earth-syst-sci-data-discuss.net/essd-2018-142/},
+}
+
+@Article{Tridon2015,
+  author   = {Tridon, F. and Battaglia, A.},
+  title    = {Dual-frequency radar Doppler spectral retrieval of rain drop size distributions and entangled dynamics variables},
+  journal  = {J. Geophys. Res. Atmos.},
+  year     = {2015},
+  volume   = {120},
+  number   = {11},
+  pages    = {5585-5601},
+  abstract = {A novel technique based on Ka-W band dual-wavelength Doppler spectra has been developed for the simultaneous retrieval of binned rain drop size distributions (DSD) and air state parameters like vertical wind and air broadening caused by turbulence and wind shear. The rationale underpinning the method consists in exploiting the peculiar features observed in Doppler spectra caused by the wavelength dependence of scattering and absorption properties. A notional study based on a large data set of DSDs measured by a two-dimensional video disdrometer demonstrates that the retrieval performs best for small/moderate air broadening spectral width and when mean volume diameters exceed at least 1 mm. The retrieval is also limited to ranges below cloud base and where the signal-to-noise ratio of both radars exceed 10 dB, which rules out regions affected by strong attenuation. Broadly speaking, it is applicable to rain rates comprised between roughly 1 and 30 mm h−1. Preliminary retrieval for observations at the Atmospheric Radiation Measurement Southern Great Plains site shows very good agreement with independent reflectivity measurements from a 0.915 GHz wind profiler. The proposed methodology shows great potential in linking microphysics to dynamics in rainfall studies.},
+  doi      = {10.1002/2014JD023023},
+  keywords = {dual-wavelength radar, Doppler spectra, binned drop size distribution, turbulence},
+}
+
+@Article{Radenz2019,
+  author   = {Radenz, M. and B\"uhl, J. and Seifert, P. and Griesche, H. and Engelmann, R.},
+  title    = {peakTree: A framework for structure-preserving radar Doppler spectra analysis},
+  journal  = {Atmospheric Measurement Techniques Discussions},
+  year     = {2019},
+  volume   = {2019},
+  pages    = {1--18},
+  abstract = {Clouds are frequently composed of more than one particle population even at smallest scales. Cloud radar observations contain information on multiple particle species, when there are distinct peaks in the Doppler spectrum. Complex multi-peaked situations are not captured by established algorithms. In this study we propose a new algorithm, that recursively represents the subpeaks as nodes in a binary tree. Using this tree data structure to represent the peaks of a Doppler spectrum it is possible to drop all a-priori assumptions on the number and arrangement of subpeaks. The approach is rigid, unambiguous and can provide a basis for advanced analysis methods. The applicability is briefly demonstrated in a case study, where the tree structure was used to separate two particle populations in an Arctic multi-layered mixed-phase cloud, which was observed during the research vessel Polarstern expedition PS106.},
+  doi      = {10.5194/amt-2019-76},
+}
+
+@Article{Kay2018,
+  author   = {Kay, Jennifer E. and L'Ecuyer, Tristan and Pendergrass, Angeline and Chepfer, Helene and Guzman, Rodrigo and Yettella, Vineel},
+  title    = {Scale-Aware and Definition-Aware Evaluation of Modeled Near-Surface Precipitation Frequency Using CloudSat Observations},
+  journal  = {J. Geophys. Res. Atmos.},
+  year     = {2018},
+  volume   = {123},
+  number   = {8},
+  pages    = {4294-4309},
+  abstract = {Abstract CloudSat's 94-GHz Cloud Profiling Radar provides unique near-global observations of precipitation frequency and intensity. Here CloudSat-based diagnostics for near-surface precipitation frequency are implemented in publicly available software that is widely used for climate model evaluation. The new diagnostics are “definition aware” and “scale aware.” As a result, the diagnostics enable robust assessment of modeled near-surface precipitation frequency at a range of intensity classes. The new diagnostics are used to evaluate precipitation frequency in a state-of-the-art climate model, the Community Earth System Model version 1 (CESM1). CESM1 rains and snows too frequently, a bias that is especially pronounced for light rain. Conversely, while rare in both observations and CESM1, the heaviest rainfall events occur too infrequently in CESM1. Though the spatial distribution of snowfall events matches observations well, CESM1 also exhibits excessive snow frequency biases. Despite these biases, projected CESM1 changes in reflectivity-based diagnostics provide interesting insights into what a future 94-GHz radar could detect in a warmer world. With 3 °C of global warming, a future CloudSat-class mission would detect substantial conversion of snow to rain at midlatitudes, a narrowing of the Tropical Pacific rain belt, increased light rain in subtropics, and increased snow frequency in polar regions. The future CESM1 simulations also provide evidence that present-day spatial and magnitude biases imprint themselves on precipitation frequency changes. In summary, new precipitation frequency diagnostics for a range of precipitation intensities robustly expose climate model biases and inform expectations for observable future precipitation changes in a warming world.},
+  doi      = {10.1002/2017JD028213},
+  keywords = {precipitation, climate model, satellite simulator, COSP, CloudSat, radar},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
