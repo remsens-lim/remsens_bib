@@ -6,3 +6,4 @@ Journal of Applied Meteorology and Climatology = J. Appl. Meteorol. Clim.
 Journal of Climate and Applied Meteorology = J. Climate Appl. Meteor.
 Current Climate Change Reports = Curr Clim Change Rep
 AIP Conference Proceedings = AIP Conference Proc.
+Proceedings of the National Academy of Sciences = Proc. Natl. Acad. Sci. U.S.A.
