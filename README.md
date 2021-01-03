@@ -3,8 +3,8 @@ bibtex file for RemSens pdf library
 
 # Initialize your local repo:
   1. Open a console and cd to your desired folder where you want to store the files on your local machine (e.g.: under ../Documents/)
-  2. Clone the repo via: git clone https://github.com/KarlJohnsonnn/remsens_bib.git
-     OR download the zip file: https://github.com/KarlJohnsonnn/remsens_bib/archive/master.zip
+  2. Clone the repo via: git clone https://github.com/remsens-lim/remsens_bib.git
+     OR download the zip file: https://github.com/remsens-lim/remsens_bib/archive/master.zip
  
 # Update the bib file:
   1. In the console, fetch the latest changes from the remote branch: git fetch
