@@ -161,13 +161,13 @@
 
 @Article{Kalesse2016,
   author   = {Kalesse, Heike and Szyrmer, Wanda and Kneifel, Stefan and Kollias, Pavlos and Luke, Edward},
-  title    = {{Fingerprints of a riming event on cloud radar Doppler spectra: observations and modeling}},
   journal  = {Atmos. Chem. Phys.},
+  title    = {{Fingerprints of a riming event on cloud radar Doppler spectra: observations and modeling}},
   year     = {2016},
-  volume   = {16},
   number   = {5},
   pages    = {2997--3012},
-  abstract = {Radar Doppler spectra measurements are exploited to study a riming event when precipitating ice from a seeder cloud sediment through a supercooled liquid water (SLW) layer. The focus is on the #golden##sample# case study for this type of analysis based on observations collected during the deployment of the Atmospheric Radiation Measurement Program's (ARM) mobile facility AMF2 at Hyyti{\"a}l{\"a}, Finland, during the Biogenic Aerosols -- Effects on Clouds and Climate (BAECC) field campaign. The presented analysis of the height evolution of the radar Doppler spectra is a state-of-the-art retrieval with profiling cloud radars in SLW layers beyond the traditional use of spectral moments. Dynamical effects are considered by following the particle population evolution along slanted tracks that are caused by horizontal advection of the cloud under wind shear conditions. In the SLW layer, the identified liquid peak is used as an air motion tracer to correct the Doppler spectra for vertical air motion and the ice peak is used to study the radar profiles of rimed particles. A 1-D steady-state bin microphysical model is constrained using the SLW and air motion profiles and cloud top radar observations. The observed radar moment profiles of the rimed snow can be simulated reasonably well by the model, but not without making several assumptions about the ice particle concentration and the relative role of deposition and aggregation. This suggests that in situ observations of key ice properties are needed to complement the profiling radar observations before process-oriented studies can effectively evaluate ice microphysical parameterizations.},
+  volume   = {16},
+  abstract = {Radar Doppler spectra measurements are exploited to study a riming event when precipitating ice from a seeder cloud sediment through a supercooled liquid water (SLW) layer. The focus is on the 'golden sample' case study for this type of analysis based on observations collected during the deployment of the Atmospheric Radiation Measurement Program's (ARM) mobile facility AMF2 at Hyyti{\"a}l{\"a}, Finland, during the Biogenic Aerosols -- Effects on Clouds and Climate (BAECC) field campaign. The presented analysis of the height evolution of the radar Doppler spectra is a state-of-the-art retrieval with profiling cloud radars in SLW layers beyond the traditional use of spectral moments. Dynamical effects are considered by following the particle population evolution along slanted tracks that are caused by horizontal advection of the cloud under wind shear conditions. In the SLW layer, the identified liquid peak is used as an air motion tracer to correct the Doppler spectra for vertical air motion and the ice peak is used to study the radar profiles of rimed particles. A 1-D steady-state bin microphysical model is constrained using the SLW and air motion profiles and cloud top radar observations. The observed radar moment profiles of the rimed snow can be simulated reasonably well by the model, but not without making several assumptions about the ice particle concentration and the relative role of deposition and aggregation. This suggests that in situ observations of key ice properties are needed to complement the profiling radar observations before process-oriented studies can effectively evaluate ice microphysical parameterizations.},
   doi      = {10.5194/acp-16-2997-2016},
   keywords = {cloud Doppler radar, Doppler spectra, fingerprinting, TMP, supercooled liquid, SLW, slanted fall streaks, riming},
 }
@@ -2537,15 +2537,14 @@ Climate-relevant aerosol processes are better understood, and climate-relevant a
 
 @Article{Vogel2018,
   author   = {Vogel, Jonathan M. and Fabry, Frédéric},
-  title    = {Contrasting Polarimetric Observations of Stratiform Riming and Nonriming Events},
   journal  = {J. Appl. Meteorol. Clim.},
+  title    = {Contrasting Polarimetric Observations of Stratiform Riming and Nonriming Events},
   year     = {2018},
-  volume   = {57},
   number   = {2},
   pages    = {457--476},
+  volume   = {57},
   abstract = {AbstractThis study investigates the how riming in stratiform precipitation impacts polarimetric signatures. Using a vertically pointing Doppler X-band radar, cases can be separated into one of three groups: unrimed to lightly rimed, riming with no bimodal spectra and fall speeds greater than 2.0 m s−1, and riming with bimodal velocity spectra. By averaging polarimetric variables over a 20° by 10-km box near the X-band radar, different signatures were documented for each of the three groups. These polarimetric signatures were then compared with a simplified T-matrix scattering model. Differential reflectivity ZDR was the one polarimetric variable to consistently vary across all three groups. Unrimed to lightly rimed cases had profiles of polarimetric signatures similar to numerous previous studies. Riming cases without detectable bimodal spectra had ZDR values on the order of 0.2 dB lower than unrimed to lightly rimed cases, while cases with bimodal spectra had ZDR values about 0.2–0.4 dB higher than unrimed to lightly rimed cases. Both signatures were reproduced using populations of aggregates, dendrites, and needles in the T-matrix scattering model. While these signatures show the potential to identify riming, they are not enough larger than measurement biases and case-to-case variability to be confidently used without confirmation from other data sources, such as a vertically pointing radar.},
   doi      = {10.1175/JAMC-D-16-0370.1},
-  eprint   = {https://doi.org/10.1175/JAMC-D-16-0370.1},
   keywords = {riming, x-band radar, cloud radar, polarimetry, differential reflectivity, zdr},
 }
 
@@ -3389,7 +3388,6 @@ setups. The DRDM ensures high range resolution with a wide unambiguous Doppler v
   journal  = {Bull. Amer. Meteor. Soc.},
   title    = {{Optimal Estimation Retrievals and Their Uncertainties: What Every Atmospheric Scientist Should Know}},
   year     = {2020},
-  issn     = {0003-0007},
   abstract = {{Retrieval datasets are prevalent and understanding the different sources of uncertainties in these datasets is critical to properly interpret and use these data.Remote sensing instruments are heavily used to provide observations for both the operational and research communities. These sensors do not provide direct observations of the desired atmospheric variables, but instead, retrieval algorithms are necessary to convert the indirect observations into the variable of interest. It is critical to be aware of the underlying assumptions made by many retrieval algorithms, including that the retrieval problem is often ill-posed and that there are various sources of uncertainty that need to be treated properly. In short, the retrieval challenge is to invert a set of noisy observations to obtain estimates of atmospheric quantities. The problem is often complicated by imperfect forward models, imperfect prior knowledge, and by the existence of nonunique solutions. Optimal Estimation (OE) is a widely used physical retrieval method that combines measurements, prior information, and the corresponding uncertainties based on Bayes’ theorem to find an optimal solution for the atmospheric state. Furthermore, OE also allows the relative contributions of the different sources of error to the uncertainty in the final retrieved atmospheric state to be understood.Here, we provide a novel Python library to illustrate the use of OE for inverse problems in Atmospheric Sciences. We introduce two example problems: How to retrieve drop size distribution parameters from radar observations and how to retrieve the temperature profile from ground-based microwave sensors. Using these examples, we discuss common pitfalls, how the various error sources impact the retrieval and how the quality of the retrieval results can be quantified.}},
   doi      = {10.1175/BAMS-D-19-0027.1},
   eprint   = {https://journals.ametsoc.org/bams/article-pdf/doi/10.1175/BAMS-D-19-0027.1/4958742/bamsd190027.pdf},
@@ -4458,7 +4456,7 @@ Therefore, there are various attempts to classify ground-based radar observation
 @Article{Fitch2020,
   author    = {Kyle E Fitch and Timothy J Garrett},
   journal   = {Department of Atmospheric Sciences, University of Utah},
-  title     = {Graupel Precipitating from Thin Arctic Clouds with Liquid Water Paths less than 50 g m{\^{}}-2},
+  title     = {Graupel Precipitating from Thin Arctic Clouds with Liquid Water Paths less than 50 g m{\^{-2}}},
   year      = {2020},
   month     = {jun},
   abstract  = {Thin boundary layer Arctic mixed-phase clouds are generally thought to precipitate pristine and aggregate ice crystals. Here we present automated surface photographic measurements showing that only 35\% of precipitation particles exhibit negligible riming and that graupel particles ≥ 1 mm in diameter commonly fall from clouds with liquid water paths less than 50 g m−2. A simple analytical formulation predicts that significant riming enhancement can occur in updrafts with speeds typical of Arctic clouds, and observations show that such conditions are favored by weak temperature inversions and strong radiative cooling at cloud top. However, numerical simulations suggest that a mean updraft speed of 0.75 m s−1 would need to be sustained for over one hour. Graupel can efficiently remove moisture and aerosols from the boundary layer. The causes and impacts of Arctic riming enhancement remain to be determined.},
@@ -4843,7 +4841,6 @@ In this review paper the current measurements and observations of ice crystal si
   journal  = {Atmos. Chem. Phys.},
   title    = {The Observed Influence of Local Anthropogenic Pollution on Northern {{Alaskan}} Cloud Properties},
   year     = {2017},
-  issn     = {1680-7324},
   number   = {23},
   pages    = {14709--14726},
   volume   = {17},
@@ -4857,7 +4854,6 @@ In this review paper the current measurements and observations of ice crystal si
   journal  = {J. Appl. Meteor. Climatol.},
   title    = {Potential of {{Higher}}-{{Order Moments}} and {{Slopes}} of the {{Radar Doppler Spectrum}} for {{Retrieving Microphysical}} and {{Kinematic Properties}} of {{Arctic Ice Clouds}}},
   year     = {2017},
-  issn     = {1558-8424},
   number   = {2},
   pages    = {263--282},
   volume   = {56},
@@ -4901,7 +4897,6 @@ In this review paper the current measurements and observations of ice crystal si
   journal    = {Geosci. Model Dev.},
   title      = {{{PAMTRA}} 1.0: The {{Passive}} and {{Active Microwave}} Radiative {{TRAnsfer}} Tool for Simulating Radiometer and Radar Measurements of the Cloudy Atmosphere},
   year       = {2020},
-  issn       = {1991-959X},
   number     = {9},
   pages      = {4229--4251},
   volume     = {13},
@@ -5183,17 +5178,17 @@ To quantify the extent of organization, we performed a high-resolution large-edd
 
 @Article{Rauber1987,
   author    = {Robert M. Rauber},
-  title     = {Characteristics of Cloud Ice and Precipitation during Wintertime Storms over the Mountains of Northern Colorado},
   journal   = {J. Appl. Meteorol. Clim.},
+  title     = {Characteristics of Cloud Ice and Precipitation during Wintertime Storms over the Mountains of Northern Colorado},
   year      = {1987},
-  volume    = {26},
   number    = {4},
   pages     = {488 - 524},
+  volume    = {26},
   abstract  = {This article describe cloud ice and precipitation process in 17 wintertime storm systems that occurred over the mountains of northwestern Colorado. Surface, remote sensing and aircraft measurements are used to study cloud and precipitation characteristics. Ice particle concentrations; secondary ice particle production; and ice panicle growth, habits and aggregation are studied in the context of cloud system structure.
 
-The region of the cloud near cloud top was found to be a primary source region for ice particles in these clouds. Ice particle concentrations were found to increase over elevated topography and to increase at lower altitudes in deep cloud systems. Approximately 80% of the measured concentrations were within the range of 1-100 L−1, and 50% were less than 20 L−1. The activity of three secondary ice particle production mechanisms was evaluated. Fragmentation was found to be important in cloud systems that contained dendritic crystals. Evidence suggested that the Hallett-Mossop rime splintering mechanism occurred only occasionally in these clouds and contributed little to the total precipitation. Droplet fragmentation during freezing did not appear to be an important mechanism.
+The region of the cloud near cloud top was found to be a primary source region for ice particles in these clouds. Ice particle concentrations were found to increase over elevated topography and to increase at lower altitudes in deep cloud systems. Approximately 80\% of the measured concentrations were within the range of 1-100 L−1, and 50\% were less than 20 L−1. The activity of three secondary ice particle production mechanisms was evaluated. Fragmentation was found to be important in cloud systems that contained dendritic crystals. Evidence suggested that the Hallett-Mossop rime splintering mechanism occurred only occasionally in these clouds and contributed little to the total precipitation. Droplet fragmentation during freezing did not appear to be an important mechanism.
 
-Surface precipitation from these cloud systems consisted of irregular crystal habits and dendritic snowfall. Irregular particles accounted for approximately 70% of the snowfall. The large number of irregular particles was attributed to (a) continuous changes in vapor density excess, temperature and concentration of liquid water droplets encountered by particles during their fall; (b) fragmentation; and (c) riming. Dendrites accounted for approximately 20% of the snowfall. A common feature of all but one major dendritic snowfall event was that cloud top was in or near the dendritic growth temperature regime (−13° to −17°C). Aircraft penetrations near the tops of these clouds found the cloud top region to contain liquid water. In these cases, the region near cloud top was found to have ideal conditions for dendritic growth. Warm temperature sheaths and needles contributed little to the total precipitation in these cloud systems.},
+Surface precipitation from these cloud systems consisted of irregular crystal habits and dendritic snowfall. Irregular particles accounted for approximately 70\% of the snowfall. The large number of irregular particles was attributed to (a) continuous changes in vapor density excess, temperature and concentration of liquid water droplets encountered by particles during their fall; (b) fragmentation; and (c) riming. Dendrites accounted for approximately 20\% of the snowfall. A common feature of all but one major dendritic snowfall event was that cloud top was in or near the dendritic growth temperature regime (−13° to −17°C). Aircraft penetrations near the tops of these clouds found the cloud top region to contain liquid water. In these cases, the region near cloud top was found to have ideal conditions for dendritic growth. Warm temperature sheaths and needles contributed little to the total precipitation in these cloud systems.},
   address   = {Boston MA, USA},
   doi       = {10.1175/1520-0450(1987)026<0488:COCIAP>2.0.CO;2},
   publisher = {American Meteorological Society},
@@ -5226,15 +5221,14 @@ Surface precipitation from these cloud systems consisted of irregular crystal ha
 
 @Article{Yuter2003,
   author   = {Yuter, Sandra E. and Houze Jr, Robert A.},
-  title    = {Microphysical modes of precipitation growth determined by S-band vertically pointing radar in orographic precipitation during MAP},
   journal  = {Quart. J. Roy. Meteor. Soc.},
+  title    = {Microphysical modes of precipitation growth determined by S-band vertically pointing radar in orographic precipitation during MAP},
   year     = {2003},
-  volume   = {129},
   number   = {588},
   pages    = {455-476},
+  volume   = {129},
   abstract = {High-resolution vertically pointing S-band Doppler radar data obtained within orographic rain by the University of Washington Orographic Precipitation Radar (OPRA) at Locarno-Monti, Switzerland during the Mesoscale Alpine Programme (MAP) Intensive Observing Periods (IOPs) 2b and 8 are examined to characterize the fine-scale precipitation structure. The relative roles of collection of cloud water by raindrops versus collection of cloud water by ice particles (riming) in the same column are assessed with a one-dimensional (1D) Kessler water-continuity model using the observed data characteristics as input. The OPRA data reveal nearly ubiquitous small-scale fallstreaks each <5 minutes in duration occurring within a wide range of precipitation intensities. Periods of higher rain rates >10 minutes in duration associated with convective cells evident in coarser-resolution data manifested as increased frequency and intensity of fallstreaks in the OPRA data. A subset of fallstreaks had sufficient magnitude in reflectivity to indicate a clear connection from the snow region, across the melting layer and into the rain region. The small-scale inhomogeneities in microphysical structure associated with fallstreaks are likely to be associated with convective overturning in the unstable IOP 2b case. In the more stable IOP 8 case, shear-driven turbulence near the melting layer, evident in truck-borne and airborne X-band Doppler-radar data shown in companion studies, is a likely contributor to fallstreak formation. The vertical profile of vertical air velocity (w) is critical to understanding the relationship between collection and riming, and their contributions to precipitation efficiency. Characteristics of the w profile within precipitating cloud were estimated in both rain and snow using observed radar parameters from the OPRA data. In rain, reflectivity-weighted fall speed was derived from observed reflectivity and assumptions about the raindrop size distribution. The derived fall velocity was subtracted from the observed Doppler radial velocity to estimate w in rain regions to within ∼1.5 m s−1. In snow regions, a lower bound on peak updraught velocity was estimated from the observed maximum Doppler velocity. For the data examined from MAP IOP 2b, typical peak updraught velocities at Locarno-Monti were between 2 and 5 m s−1. These estimated peak updraught velocities were used to construct plausible parabolic profiles of w that were in turn used as input to a 1D Kessler water-continuity model. Model output shows local maxima in the riming rate and mixing ratio of ice within 2 km of the freezing level, indicating a favourable environment for graupel formation. The location of this layer in the model is consistent with the observed occurrence of graupel in National Center for Atmospheric Research S-Pol radar data in the IOP 2b storm in a companion study. The modelled rates of collection and riming are comparable, and both make significant contributions to the growth by accretion of precipitation within the storm updraughts. Within the rain layer, liquid-water coalescence (autoconversion and collection) in updraughts with peak velocities of 5 m s−1 can account for up to ∼40\% of column-integrated cloud water. Our analysis of the observational data and the 1D model results confirms and extends previous work indicating that a combination of liquid-water coalescence and ice-phase processes is needed to obtain high precipitation efficiencies >40\% in orographic precipitation. Copyright © 2003 Royal Meteorological Society.},
   doi      = {https://doi.org/10.1256/qj.01.216},
-  eprint   = {https://rmets.onlinelibrary.wiley.com/doi/pdf/10.1256/qj.01.216},
   keywords = {Accretion, Fallstreaks, Mesoscale Alpine Programme, One-dimensional water-continuity model, Riming},
 }
 
@@ -5259,7 +5253,7 @@ Surface precipitation from these cloud systems consisted of irregular crystal ha
   pages   = {in review},
 }
 
-@Article{gmd-14-1511-2021,
+@Article{Ori2021,
   author  = {Ori, D. and von Terzi, L. and Karrer, M. and Kneifel, S.},
   title   = {snowScatt 1.0: consistent model of microphysical and scattering properties of rimed and unrimed snowflakes based on the self-similar Rayleigh--Gans approximation},
   journal = {Geosci. Model Dev.},
@@ -5317,19 +5311,17 @@ Surface precipitation from these cloud systems consisted of irregular crystal ha
   journal   = {J. Appl. Meteor. Clim.},
   title     = {High-Resolution Polarimetric Radar Observations of Snow-Generating Cells},
   year      = {2014},
-  month     = {jun},
   number    = {6},
   pages     = {1636--1658},
   volume    = {53},
   abstract  = {High-resolution X-band polarimetric radar data were collected in 19 snowstorms over northern Colorado in early 2013 as part of the Front Range Orographic Storms (FROST) project. In each case, small, vertically erect convective turrets were observed near the echo top. These “generating cells” are similar to those reported in the literature and are characterized by ~1-km horizontal and vertical dimensions, vertical velocities of 1–2 m s−1, and lifetimes of at least 10 min. In some cases, these generating cells are enshrouded by enhanced differential reflectivity ZDR, indicating a “shroud” of pristine crystals enveloping the larger, more isotropic particles. The anticorrelation of radar reflectivity factor at horizontal polarization ZH and ZDR suggests ongoing aggregation or riming of particles in the core of generating cells. For cases in which radiosonde data were collected, potential instability was found within the layer in which generating cells were observed. The persistence of these layers suggests that radiative effects are important, perhaps by some combination of cloud-top cooling and release of latent enthalpy through depositional and riming growth of particles within the cloud. The implications for the ubiquity of generating cells and their role as a mechanism for ice crystal initiation and growth are discussed.},
   doi       = {https://doi.org/10.1175/JAMC-D-13-0312.1},
   keywords  = {Snow; Cloud microphysics; Radars/Radar observations},
-  publisher = {American Meteorological Society},
 }
 
 @Article{Matrosov1991b,
   author    = {S. Y. Matrosov},
-  journal   = {Radio Science},
+  journal   = {Radio Sci.},
   title     = {Prospects for the measurement of ice cloud particle shape and orientation with elliptically polarized radar signals},
   year      = {1991},
   month     = {jul},
@@ -5345,18 +5337,23 @@ Surface precipitation from these cloud systems consisted of irregular crystal ha
   author  = {Martin Radenz, Johannes Bühl, Patric Seifert, Holger Baars, Ronny Engelmann, Boris Barja González, Rodanthi-Elisabeth Mamouri, Félix Zamorano, Albert Ansmann},
   title   = {Hemispheric contrasts in ice formation in stratiform mixed-phase clouds: Disentangling the role of aerosol and dynamics with ground-based remote sensing},
   journal = {submitted to Atmos. Chem. Phys. Discuss.},
+}
+
+@Article{Kalesse2021,
+  author  = {Heike Kalesse-Los and W. Schimmel and E. Luke and P. Seifert},
+  journal = {Atmos. Meas. Tech.},
+  title   = {Evaluating cloud liquid detection using cloud radar Doppler spectra in a pre-trained artificial neural network against Cloudnet liquid detection},
   year    = {2021},
 }
 
 @Article{Vogl2021,
-  author = {Teresa Vogl},
-  year   = {2021},
+  author  = {Teresa Vogl and Maximilian Maahn and Stefan Kneifel and Willi Schimmel and Dmitri Moisseev and Heike Kalesse},
+  title   = {Using artificial neural networks to predict riming from Doppler cloud radar observations},
+  journal = {submitted to Atmos. Meas. Tech. Discuss.},
+  year    = {2021},
 }
 
-@Article{Kalesse2021,
-  author = {Heike Kalesse},
-  year   = {2021},
-}
+
 
 @Article{Heymsfield2020,
   author  = {Andrew J. Heymsfield and Carl Schmitt and Chih-Chieh-Jack Chen and Aaron Bansemer and Andrew Gettelman and Paul R. Field and Chuntao Liu},
@@ -5368,6 +5365,30 @@ Surface precipitation from these cloud systems consisted of irregular crystal ha
   pages   = {2629 - 2648},
   address = {Boston MA, USA},
   doi     = {10.1175/JAS-D-19-0352.1},
+ }
+  
+  @Article{Kalesse2016c,
+  author    = {Heike Kalesse and Wanda Szyrmer and Stefan Kneifel and Pavlos Kollias and Edward Luke},
+  journal   = {Atmos. Chem. Phys.},
+  title     = {Fingerprints of a riming event on cloud radar Doppler spectra: observations and modeling},
+  year      = {2016},
+  number    = {5},
+  pages     = {2997--3012},
+  volume    = {16},
+  doi       = {DOI:10.5194/acp-16-2997-2016},
+  publisher = {Copernicus {GmbH}},
+}
+
+@Article{Luke2021,
+  author    = {Edward P. Luke and Fan Yang and Pavlos Kollias and Andrew M. Vogelmann and Maximilian Maahn},
+  journal   = {P. Natl. A. Sci.},
+  title     = {New insights into ice multiplication using remote-sensing observations of slightly supercooled mixed-phase clouds in the Arctic},
+  year      = {2021},
+  number    = {13},
+  pages     = {e2021387118},
+  volume    = {118},
+  doi       = {DOI:10.1073/pnas.2021387118},
+  publisher = {Proceedings of the National Academy of Sciences},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
